@@ -1,7 +1,7 @@
 [project]
 name = "cc-wc"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple module which replicates the functionality of the Unix wc command."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []

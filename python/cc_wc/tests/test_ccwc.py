@@ -51,11 +51,11 @@ def test_wc_functions():
             "Words: 58164",
         ),
         (
-            ["-c", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
+            ["-b", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
             "Bytes: 342190",
         ),
         (
-            ["-m", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
+            ["-c", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
             "Characters: 332147",
         ),
     ],
