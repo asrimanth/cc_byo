@@ -16,7 +16,7 @@ For multiple files:
 python ccwc.py <file_path1> <file_path2> <file_path3> ...
 ```
 
-For standard input (pipe or tree in linux):
+For standard input (pipe or tee in linux):
 
 ```python
 cat <file_path> | python ccwc.py
