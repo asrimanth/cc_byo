@@ -2,24 +2,28 @@
 
 This is a simple implementation of the `wc` command in Python. It counts the number of lines, words, and characters in a given text file.
 
-## Usage:
+## Usage
 
 For a single file:
+
 ```python
 python ccwc.py <file_path>
 ```
 
 For multiple files:
+
 ```python
 python ccwc.py <file_path1> <file_path2> <file_path3> ...
 ```
 
 For standard input (pipe or tree in linux):
+
 ```python
 cat <file_path> | python ccwc.py
 ```
 
 Flags:
+
 - `-l` or `--lines`: Count lines
 - `-w` or `--words`: Count words
 - `-b` or `--bytes`: Count bytes

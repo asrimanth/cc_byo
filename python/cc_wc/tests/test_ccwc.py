@@ -15,6 +15,7 @@ from src.ccwc import (
     main,
 )
 
+TEST_FILE_PATH = "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"
 
 def test_wc_functions():
     """
@@ -43,19 +44,19 @@ def test_wc_functions():
     "args,expected_output",
     [
         (
-            ["-l", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
+            ["-l", TEST_FILE_PATH],
             "Lines: 7145",
         ),
         (
-            ["-w", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
+            ["-w", TEST_FILE_PATH],
             "Words: 58164",
         ),
         (
-            ["-b", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
+            ["-b", TEST_FILE_PATH],
             "Bytes: 342190",
         ),
         (
-            ["-c", "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"],
+            ["-c", TEST_FILE_PATH],
             "Characters: 332147",
         ),
     ],
