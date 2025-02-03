@@ -1,0 +1,249 @@
+2025-01-31 18:48:43,769 - root - INFO - Connected by ('127.0.0.1', 50060)
+2025-01-31 18:48:43,769 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 18:48:52,389 - root - INFO - DATA: b'*1\r\n$4\r\nping\r\n'
+2025-01-31 18:49:08,639 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$4\r\nname\r\n$3\r\nsri\r\n'
+2025-01-31 18:49:26,315 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$4\r\nname\r\n$5\r\nsri\\n\r\n'
+2025-01-31 18:51:00,791 - root - INFO - Initializin server at 127.0.0.1:9000
+2025-01-31 18:51:09,686 - root - INFO - Connected by ('127.0.0.1', 50063)
+2025-01-31 18:51:09,686 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 18:51:13,043 - root - INFO - DATA: b'*1\r\n$2\r\nls\r\n'
+2025-01-31 18:54:09,571 - root - INFO - Initializing server at 127.0.0.1:9000
+2025-01-31 18:54:11,441 - root - INFO - Connected by ('127.0.0.1', 50072)
+2025-01-31 18:54:11,441 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 18:54:11,441 - resp - ERROR - Unknown OP: b'*'
+NoneType: None
+2025-01-31 18:54:14,428 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$4\r\nname\r\n$3\r\nsri\r\n'
+2025-01-31 18:54:14,429 - resp - ERROR - Unknown OP: b'*'
+NoneType: None
+2025-01-31 18:54:35,640 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$1\r\n1\r\n'
+2025-01-31 18:54:35,641 - resp - ERROR - Unknown OP: b'*'
+NoneType: None
+2025-01-31 18:54:49,952 - root - INFO - DATA: b'*2\r\n$3\r\nget\r\n$5\r\ndigit\r\n'
+2025-01-31 18:54:49,952 - resp - ERROR - Unknown OP: b'*'
+NoneType: None
+2025-01-31 18:55:37,566 - root - INFO - DATA: b'*2\r\n$4\r\nincr\r\n$5\r\ndigit\r\n'
+2025-01-31 18:55:37,566 - resp - ERROR - Unknown OP: b'*'
+NoneType: None
+2025-01-31 18:57:01,543 - root - INFO - Initializing server at 127.0.0.1:9000
+2025-01-31 18:57:03,112 - root - INFO - Connected by ('127.0.0.1', 50074)
+2025-01-31 18:57:03,112 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 18:57:03,112 - resp - INFO - b'*', Symbol.ARRAY, False
+2025-01-31 18:57:03,112 - resp - ERROR - Unknown OP: b'*'
+NoneType: None
+2025-01-31 18:57:05,884 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$1\r\n1\r\n'
+2025-01-31 18:57:05,884 - resp - INFO - b'*', Symbol.ARRAY, False
+2025-01-31 18:57:05,884 - resp - ERROR - Unknown OP: b'*'
+NoneType: None
+2025-01-31 18:59:25,522 - root - INFO - Initializing server at 127.0.0.1:9000
+2025-01-31 18:59:27,929 - root - INFO - Connected by ('127.0.0.1', 50084)
+2025-01-31 18:59:27,929 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 18:59:27,929 - resp - INFO - b'*', b'*', False
+2025-01-31 18:59:27,929 - resp - INFO - This is blue.
+2025-01-31 18:59:28,947 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$1\r\n1\r\n'
+2025-01-31 18:59:28,947 - resp - INFO - b'*', b'*', False
+2025-01-31 18:59:28,948 - resp - INFO - This is blue.
+2025-01-31 19:00:05,943 - root - INFO - Initializing server at 127.0.0.1:9000
+2025-01-31 19:00:09,462 - root - INFO - Initializing server at 127.0.0.1:9000
+2025-01-31 19:00:29,138 - root - INFO - Initializing server at 127.0.0.1:9000
+2025-01-31 19:00:37,192 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 19:00:40,382 - root - INFO - Connected by ('127.0.0.1', 50085)
+2025-01-31 19:00:40,382 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 19:00:40,382 - resp - INFO - This is array.
+2025-01-31 19:00:43,172 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$1\r\n1\r\n'
+2025-01-31 19:00:43,173 - resp - INFO - This is array.
+2025-01-31 19:00:51,105 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$4\r\nname\r\n$3\r\nsri\r\n'
+2025-01-31 19:00:51,105 - resp - INFO - This is array.
+2025-01-31 19:01:15,199 - root - INFO - DATA: b'*3\r\n$4\r\nmake\r\n$2\r\nls\r\n$2\r\nks\r\n'
+2025-01-31 19:01:15,199 - resp - INFO - This is array.
+2025-01-31 19:01:31,954 - root - INFO - DATA: b'*3\r\n$5\r\nkatre\r\n$4\r\nmama\r\n$3\r\nmia\r\n'
+2025-01-31 19:01:31,955 - resp - INFO - This is array.
+2025-01-31 19:02:03,292 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 19:02:05,035 - root - INFO - Connected by ('127.0.0.1', 50087)
+2025-01-31 19:02:05,035 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 19:02:05,035 - resp - INFO - This is array.
+2025-01-31 19:02:09,648 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$4\r\nname\r\n$3\r\nsri\r\n'
+2025-01-31 19:02:09,649 - resp - INFO - This is array.
+2025-01-31 19:02:13,995 - root - INFO - DATA: b'*3\r\n$5\r\nkatre\r\n$4\r\nmama\r\n$3\r\nmia\r\n'
+2025-01-31 19:02:13,995 - resp - INFO - This is array.
+2025-01-31 19:02:18,487 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$1\r\n1\r\n'
+2025-01-31 19:02:18,488 - resp - INFO - This is array.
+2025-01-31 19:18:13,860 - root - INFO - DATA: b'*1\r\n$1\r\n1\r\n'
+2025-01-31 19:18:13,861 - resp - INFO - This is array.
+2025-01-31 19:26:34,214 - root - INFO - DATA: b'*1\r\n$4\r\nping\r\n'
+2025-01-31 19:26:34,214 - resp - INFO - This is array.
+2025-01-31 19:27:50,753 - root - INFO - DATA: b'*1\r\n$1\r\n1\r\n'
+2025-01-31 19:27:50,754 - resp - INFO - This is array.
+2025-01-31 19:27:52,021 - root - INFO - DATA: b'*1\r\n$1\r\n2\r\n'
+2025-01-31 19:27:52,021 - resp - INFO - This is array.
+2025-01-31 19:27:52,889 - root - INFO - DATA: b'*1\r\n$1\r\n3\r\n'
+2025-01-31 19:27:52,889 - resp - INFO - This is array.
+2025-01-31 19:27:53,790 - root - INFO - DATA: b'*1\r\n$1\r\n4\r\n'
+2025-01-31 19:27:53,790 - resp - INFO - This is array.
+2025-01-31 19:27:54,446 - root - INFO - DATA: b'*1\r\n$1\r\n5\r\n'
+2025-01-31 19:27:54,446 - resp - INFO - This is array.
+2025-01-31 19:27:55,508 - root - INFO - DATA: b'*1\r\n$1\r\n6\r\n'
+2025-01-31 19:27:55,508 - resp - INFO - This is array.
+2025-01-31 19:28:25,812 - root - INFO - DATA: b'*4\r\n$4\r\nmake\r\n$1\r\na\r\n$7\r\ncommand\r\n$4\r\nhere\r\n'
+2025-01-31 19:28:25,813 - resp - INFO - This is array.
+2025-01-31 19:41:04,211 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 19:41:06,946 - root - INFO - Connected by ('127.0.0.1', 50122)
+2025-01-31 19:41:06,946 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 19:41:06,947 - resp - INFO - This is bulk_str.
+2025-01-31 19:41:06,947 - resp - ERROR - Unknown OP: b'7'
+NoneType: None
+2025-01-31 19:41:06,947 - resp - INFO - This is array -> [(None, None), (None, None)]
+2025-01-31 19:41:08,172 - root - INFO - DATA: b'*4\r\n$4\r\nmake\r\n$1\r\na\r\n$7\r\ncommand\r\n$4\r\nhere\r\n'
+2025-01-31 19:41:08,172 - resp - INFO - This is bulk_str.
+2025-01-31 19:41:08,172 - resp - ERROR - Unknown OP: b'4'
+NoneType: None
+2025-01-31 19:41:08,173 - resp - ERROR - Unknown OP: b'\r'
+NoneType: None
+2025-01-31 19:41:08,173 - resp - ERROR - Unknown OP: b'\n'
+NoneType: None
+2025-01-31 19:41:08,173 - resp - INFO - This is array -> [(None, None), (None, None), (None, None), (None, None)]
+2025-01-31 19:42:17,014 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 19:42:18,388 - root - INFO - Connected by ('127.0.0.1', 50127)
+2025-01-31 19:42:18,389 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 19:42:18,389 - resp - INFO - len: 2
+2025-01-31 19:42:18,389 - resp - INFO - This is bulk_str.
+2025-01-31 19:42:18,389 - resp - ERROR - Unknown OP: b'7'
+NoneType: None
+2025-01-31 19:42:18,389 - resp - INFO - This is array -> [(None, None), (None, None)]
+2025-01-31 19:42:20,706 - root - INFO - DATA: b'*4\r\n$4\r\nmake\r\n$1\r\na\r\n$7\r\ncommand\r\n$4\r\nhere\r\n'
+2025-01-31 19:42:20,707 - resp - INFO - len: 4
+2025-01-31 19:42:20,707 - resp - INFO - This is bulk_str.
+2025-01-31 19:42:20,707 - resp - ERROR - Unknown OP: b'4'
+NoneType: None
+2025-01-31 19:42:20,708 - resp - ERROR - Unknown OP: b'\r'
+NoneType: None
+2025-01-31 19:42:20,708 - resp - ERROR - Unknown OP: b'\n'
+NoneType: None
+2025-01-31 19:42:20,708 - resp - INFO - This is array -> [(None, None), (None, None), (None, None), (None, None)]
+2025-01-31 19:44:40,587 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 19:44:43,931 - root - INFO - Connected by ('127.0.0.1', 50129)
+2025-01-31 19:44:43,931 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 19:44:43,931 - resp - INFO - len: 2
+2025-01-31 19:44:43,931 - resp - INFO - This is bulk_str.
+2025-01-31 19:44:43,931 - resp - ERROR - Unknown OP: b'7'
+NoneType: None
+2025-01-31 19:44:47,591 - root - INFO - DATA: b'*4\r\n$4\r\nmake\r\n$1\r\na\r\n$7\r\ncommand\r\n$4\r\nhere\r\n'
+2025-01-31 19:44:47,591 - resp - INFO - len: 4
+2025-01-31 19:44:47,591 - resp - INFO - This is bulk_str.
+2025-01-31 19:44:47,592 - resp - ERROR - Unknown OP: b'4'
+NoneType: None
+2025-01-31 19:44:47,592 - resp - ERROR - Unknown OP: b'\r'
+NoneType: None
+2025-01-31 19:44:47,592 - resp - ERROR - Unknown OP: b'\n'
+NoneType: None
+2025-01-31 19:45:45,814 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 19:45:47,521 - root - INFO - Connected by ('127.0.0.1', 50134)
+2025-01-31 19:45:47,522 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 19:45:47,522 - resp - INFO - len: 2
+2025-01-31 19:45:47,522 - resp - INFO - This is bulk_str.
+2025-01-31 19:45:47,522 - resp - ERROR - Unknown OP: b'7'
+NoneType: None
+2025-01-31 19:45:47,522 - __main__ - INFO - Parser output: [(None, None), (None, None)]
+2025-01-31 19:45:49,168 - root - INFO - DATA: b'*4\r\n$4\r\nmake\r\n$1\r\na\r\n$7\r\ncommand\r\n$4\r\nhere\r\n'
+2025-01-31 19:45:49,169 - resp - INFO - len: 4
+2025-01-31 19:45:49,169 - resp - INFO - This is bulk_str.
+2025-01-31 19:45:49,169 - resp - ERROR - Unknown OP: b'4'
+NoneType: None
+2025-01-31 19:45:49,170 - resp - ERROR - Unknown OP: b'\r'
+NoneType: None
+2025-01-31 19:45:49,170 - resp - ERROR - Unknown OP: b'\n'
+NoneType: None
+2025-01-31 19:45:49,170 - __main__ - INFO - Parser output: [(None, None), (None, None), (None, None), (None, None)]
+2025-01-31 19:47:42,007 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 19:47:43,220 - root - INFO - Connected by ('127.0.0.1', 50135)
+2025-01-31 19:47:43,221 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 19:47:43,221 - resp - INFO - len: 2
+2025-01-31 19:47:43,221 - resp - INFO - This is bulk_str.
+2025-01-31 19:47:43,221 - resp - INFO - This is bulk_str.
+2025-01-31 19:47:43,221 - __main__ - INFO - Parser output: ['COMMAND', 'DOCS']
+2025-01-31 19:47:44,732 - root - INFO - DATA: b'*4\r\n$4\r\nmake\r\n$1\r\na\r\n$7\r\ncommand\r\n$4\r\nhere\r\n'
+2025-01-31 19:47:44,732 - resp - INFO - len: 4
+2025-01-31 19:47:44,732 - resp - INFO - This is bulk_str.
+2025-01-31 19:47:44,732 - resp - INFO - This is bulk_str.
+2025-01-31 19:47:44,732 - resp - INFO - This is bulk_str.
+2025-01-31 19:47:44,732 - resp - INFO - This is bulk_str.
+2025-01-31 19:47:44,733 - __main__ - INFO - Parser output: ['make', 'a', 'command', 'here']
+2025-01-31 19:48:43,363 - root - INFO - DATA: b'*2\r\n$3\r\nget\r\n$4\r\nname\r\n'
+2025-01-31 19:48:43,363 - resp - INFO - len: 2
+2025-01-31 19:48:43,364 - resp - INFO - This is bulk_str.
+2025-01-31 19:48:43,364 - resp - INFO - This is bulk_str.
+2025-01-31 19:48:43,364 - __main__ - INFO - Parser output: ['get', 'name']
+2025-01-31 19:50:01,185 - root - INFO - DATA: b'*2\r\n$3\r\nget\r\n$1\r\n1\r\n'
+2025-01-31 19:50:01,185 - resp - INFO - len: 2
+2025-01-31 19:50:01,185 - resp - INFO - This is bulk_str.
+2025-01-31 19:50:01,185 - resp - INFO - This is bulk_str.
+2025-01-31 19:50:01,185 - __main__ - INFO - Parser output: ['get', '1']
+2025-01-31 19:55:45,028 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$1\r\n1\r\n'
+2025-01-31 19:55:45,029 - resp - INFO - len: 3
+2025-01-31 19:55:45,029 - resp - INFO - This is bulk_str.
+2025-01-31 19:55:45,029 - resp - INFO - This is bulk_str.
+2025-01-31 19:55:45,029 - resp - INFO - This is bulk_str.
+2025-01-31 19:55:45,029 - __main__ - INFO - Parser output: ['set', 'digit', '1']
+2025-01-31 19:55:51,334 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$2\r\n10\r\n'
+2025-01-31 19:55:51,335 - resp - INFO - len: 3
+2025-01-31 19:55:51,335 - resp - INFO - This is bulk_str.
+2025-01-31 19:55:51,335 - resp - INFO - This is bulk_str.
+2025-01-31 19:55:51,335 - resp - INFO - This is bulk_str.
+2025-01-31 19:55:51,335 - __main__ - INFO - Parser output: ['set', 'digit', '10']
+2025-01-31 19:56:14,731 - root - INFO - DATA: b'*1\r\n$1\r\n1\r\n'
+2025-01-31 19:56:14,732 - resp - INFO - len: 1
+2025-01-31 19:56:14,732 - resp - INFO - This is bulk_str.
+2025-01-31 19:56:14,732 - __main__ - INFO - Parser output: ['1']
+2025-01-31 20:46:13,750 - root - INFO - Initializing server at 127.0.0.1:9090
+2025-01-31 20:46:15,429 - root - INFO - Connected by ('127.0.0.1', 50395)
+2025-01-31 20:46:15,429 - root - INFO - DATA: b'*2\r\n$7\r\nCOMMAND\r\n$4\r\nDOCS\r\n'
+2025-01-31 20:46:15,429 - resp - INFO - len: 2
+2025-01-31 20:46:15,429 - resp - INFO - len: 7
+2025-01-31 20:46:15,429 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:15,429 - resp - INFO - len: 4
+2025-01-31 20:46:15,429 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:15,429 - __main__ - INFO - Parser output: ['COMMAND', 'DOCS']
+2025-01-31 20:46:17,439 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$2\r\n10\r\n'
+2025-01-31 20:46:17,439 - resp - INFO - len: 3
+2025-01-31 20:46:17,440 - resp - INFO - len: 3
+2025-01-31 20:46:17,440 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:17,440 - resp - INFO - len: 5
+2025-01-31 20:46:17,440 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:17,440 - resp - INFO - len: 2
+2025-01-31 20:46:17,441 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:17,441 - __main__ - INFO - Parser output: ['set', 'digit', 10]
+2025-01-31 20:46:25,666 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$4\r\nname\r\n$3\r\nsri\r\n'
+2025-01-31 20:46:25,666 - resp - INFO - len: 3
+2025-01-31 20:46:25,667 - resp - INFO - len: 3
+2025-01-31 20:46:25,667 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:25,667 - resp - INFO - len: 4
+2025-01-31 20:46:25,667 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:25,667 - resp - INFO - len: 3
+2025-01-31 20:46:25,668 - resp - INFO - This is bulk_str.
+2025-01-31 20:46:25,668 - __main__ - INFO - Parser output: ['set', 'name', 'sri']
+2025-01-31 20:47:44,783 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$3\r\n-10\r\n'
+2025-01-31 20:47:44,784 - resp - INFO - len: 3
+2025-01-31 20:47:44,784 - resp - INFO - len: 3
+2025-01-31 20:47:44,784 - resp - INFO - This is bulk_str.
+2025-01-31 20:47:44,784 - resp - INFO - len: 5
+2025-01-31 20:47:44,784 - resp - INFO - This is bulk_str.
+2025-01-31 20:47:44,784 - resp - INFO - len: 3
+2025-01-31 20:47:44,784 - resp - INFO - This is bulk_str.
+2025-01-31 20:47:44,785 - __main__ - INFO - Parser output: ['set', 'digit', -10]
+2025-01-31 20:59:47,889 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$3\r\n-10\r\n'
+2025-01-31 20:59:47,889 - resp - INFO - len: 3
+2025-01-31 20:59:47,890 - resp - INFO - len: 3
+2025-01-31 20:59:47,890 - resp - INFO - This is bulk_str.
+2025-01-31 20:59:47,890 - resp - INFO - len: 5
+2025-01-31 20:59:47,891 - resp - INFO - This is bulk_str.
+2025-01-31 20:59:47,891 - resp - INFO - len: 3
+2025-01-31 20:59:47,891 - resp - INFO - This is bulk_str.
+2025-01-31 20:59:47,891 - __main__ - INFO - Parser output: ['set', 'digit', -10]
+2025-01-31 20:59:51,005 - root - INFO - DATA: b'*3\r\n$3\r\nset\r\n$5\r\ndigit\r\n$2\r\n-5\r\n'
+2025-01-31 20:59:51,006 - resp - INFO - len: 3
+2025-01-31 20:59:51,006 - resp - INFO - len: 3
+2025-01-31 20:59:51,006 - resp - INFO - This is bulk_str.
+2025-01-31 20:59:51,006 - resp - INFO - len: 5
+2025-01-31 20:59:51,006 - resp - INFO - This is bulk_str.
+2025-01-31 20:59:51,006 - resp - INFO - len: 2
+2025-01-31 20:59:51,006 - resp - INFO - This is bulk_str.
+2025-01-31 20:59:51,007 - __main__ - INFO - Parser output: ['set', 'digit', -5]

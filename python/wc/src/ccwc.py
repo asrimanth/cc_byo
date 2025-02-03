@@ -91,7 +91,7 @@ def count_chars(filepath: str) -> int:
     return total_chars
 
 
-def main() -> None:
+def main() -> str:
     """
     The main function to emulate the wc command.
     """
@@ -101,8 +101,8 @@ def main() -> None:
     parser.add_argument("files", default=None, nargs="*", help="The files to count")
     parser.add_argument("-l", "--lines", action="store_true", help="Count lines")
     parser.add_argument("-w", "--words", action="store_true", help="Count words")
-    parser.add_argument("-b", "--bytes", action="store_true", help="Count bytes")
-    parser.add_argument("-c", "--chars", action="store_true", help="Count characters")
+    parser.add_argument("-c", "--bytes", action="store_true", help="Count bytes")
+    parser.add_argument("-m", "--chars", action="store_true", help="Count characters")
     args = parser.parse_args()
 
     # Show all by default

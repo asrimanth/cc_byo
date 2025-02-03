@@ -1,5 +1,5 @@
 [project]
-name = "cc-wc"
+name = "wc"
 version = "0.1.0"
 description = "A simple module which replicates the functionality of the Unix wc command."
 readme = "README.md"

@@ -17,6 +17,7 @@ from src.ccwc import (
 
 TEST_FILE_PATH = "/Users/srimanth/Documents/Projects/CC_BYO/assets/test_wc.txt"
 
+
 def test_wc_functions():
     """
     Test individual counting functions
