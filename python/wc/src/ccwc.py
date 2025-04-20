@@ -1,5 +1,18 @@
 """
 A simple module which replicates the functionality of the Unix wc command.
+This module provides functions to count the number of lines, words, bytes, and characters in a file.
+It can also read from standard input and write to a temporary file.
+The module uses chunking to read large files efficiently.
+The default chunk size is set to 1MB, but it can be adjusted as needed.
+The module is designed to be run from the command line and accepts various arguments for counting options.
+It returns the counts as a formatted string.
+Usage:
+    python ccwc.py [options] [files]
+Options:
+    -l, --lines           Count lines
+    -w, --words          Count words
+    -c, --bytes          Count bytes
+    -m, --chars          Count characters
 """
 
 import argparse
